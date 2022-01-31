@@ -8,7 +8,9 @@
 
   <?php wp_head(); ?>
 
-  <title>Título del blog</title>
+  
+
+  <title>MI GRAN BLOG</title>
 </head>
 
 <body>

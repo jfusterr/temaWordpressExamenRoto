@@ -19,10 +19,6 @@
 <div class="nav-previous alignleft"><?php previous_posts_link('Entradas más antiguas'); ?></div>
 <div class="nav-next alignright"><?php next_posts_link('Entradas más recientes'); ?></div>
 
-</div>
-</div>
-</main>
-</body>
 <footer class="blog-footer">
     <div class="contariner">
         <div class="row">
@@ -30,8 +26,16 @@
             <div class="col-md-6">
                Menú
             </div>
+            <div class="col-md-3">
+                <?php wp_nav_menu(
+                    array(
+                        'theme_location'  => 'temazo_footer_1',
+                    )
+                ); ?>
+            </div>
         </div>
     </div>
 </footer>
+</body>
 
-</html>
+
